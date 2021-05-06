@@ -1,0 +1,8 @@
+city1 = City.create(city_name:"Paris")
+city2 = City.create(city_name:"Bordeaux")
+dog_sitter1 = DogSitter.create(name: "Justine")
+dog_sitter2 = DogSitter.create(name: "Corinne")
+dog1 = Dog.create(surname: "Serge", city: city1)
+dog2 = Dog.create(surname: "Socca", city: city2)
+stroll1 = Stroll.create(date: 06/05/2021, dog_sitter: dog_sitter1, dog: dog1, city: city1)
+stroll2 = Stroll.create(date: 06/05/2021, dog_sitter: dog_sitter2, dog: dog2, city: city2)
